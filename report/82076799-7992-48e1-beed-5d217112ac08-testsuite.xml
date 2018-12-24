@@ -1,0 +1,41 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1545638746418" stop="1545638746543">
+  <name>test_login</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1545638746418" status="passed" stop="1545638746434">
+      <name>TestLogin.test_a</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5436-MainThread"/>
+        <label name="host" value="zhuwei-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1545638746434" status="failed" stop="1545638746543">
+      <name>TestLogin.test_b</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test_login.TestLogin object at 0x031F8470&gt;
+
+    def test_b(self):
+        print("\n2222")
+&gt;       assert 0
+E       assert 0
+
+script\test_login.py:8: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5436-MainThread"/>
+        <label name="host" value="zhuwei-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
